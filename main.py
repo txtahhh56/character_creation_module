@@ -31,7 +31,7 @@ class Character:
         return f'{self.__class__.__name__} - {self.BRIEF_DESC_CHAR_CLASS}.'
 
 
-class с(Character):
+class Warrior(Character):
     BRIEF_DESC_CHAR_CLASS = (' дерзкий воин ближнего боя. '
                              'Сильный, выносливый и отважный')
     RANGE_VALUE_ATTACK = (3, 5)
